@@ -22,6 +22,18 @@
   z-index: 2; /* showcase section will always displayed in front*/
 }
 
+.showcase header {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  left: 0;
+  padding: 40px 100px;
+  width: 100%;
+  z-index: 1000;
+}
+
 .toggle {
   position: relative;
   width: 60px;
@@ -32,4 +44,8 @@
   background-size: 30px;
   background-position: center;
   cursor: pointer;
+}
+
+.menu {
+  /* display: none; */
 }
