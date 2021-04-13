@@ -106,9 +106,14 @@
 
 .content a {
   display: inline-block;
+  margin-top: 10px;
   padding: 10px 30px;
   background: #fff;
   font-size: 1em;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .menu {
