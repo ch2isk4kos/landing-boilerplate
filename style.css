@@ -43,12 +43,19 @@
   position: relative;
   width: 60px;
   height: 60px;
-  /* background: url("https://www.flaticon.com/svg/vstatic/svg/2099/2099043.svg?token=exp=1618329526~hmac=530bbd6a4b3bcd5460c35bd14cd0a0fd"); add url for hamburger icon */
+  /* background: url("https://www.flaticon.com/svg/vstatic/svg/2099/2099043.svg?token=exp=1618329526~hmac=530bbd6a4b3bcd5460c35bd14cd0a0fd");*/ /* add url for hamburger icon */
   background: url("https://www.flaticon.com/svg/vstatic/svg/1828/1828850.svg?token=exp=1618329419~hmac=341a5df618f7c3b4550ef47d30e7c838");
   background-repeat: no-repeat;
   background-size: 30px;
   background-position: center;
   cursor: pointer;
+}
+
+.toggle.active {
+  background: url("https://www.flaticon.com/svg/vstatic/svg/61/61155.svg?token=exp=1618330568~hmac=25c4514bbc3fbddad563daaf929be274");
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position: center;
 }
 
 .menu {
