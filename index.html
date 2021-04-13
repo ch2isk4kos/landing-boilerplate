@@ -11,13 +11,23 @@
     <section class="showcase">
       <header>
         <h2 class="logo">ch2isk4kos</h2>
-        <div class="toggle"></div>
+        <div class="toggle-open" onclick="openSideMenu()">
+          <a href="#">
+            <img
+              src="https://www.flaticon.com/premium-icon/icons/svg/2516/2516745.svg"
+              alt="side menu toggle"
+              target="_blank"
+          /></a>
+        </div>
       </header>
-      <!-- put the file extention to the mp4 file in the video tag below -->
+
+      <!-- background video -->
       <video src="assets/Pexels Videos 2759480.mp4" muted loop autoplay></video>
 
+      <!-- overlay -->
       <div class="overlay"></div>
 
+      <!-- content text -->
       <div class="content">
         <h2>Chris Kakos</h2>
         <h3>Full Stack Engineer</h3>
@@ -29,6 +39,7 @@
         <a href="#">Welcome</a>
       </div>
 
+      <!-- social media icons -->
       <ul class="social">
         <li>
           <a href="https://github.com/ch2isk4kos">
@@ -37,7 +48,7 @@
               alt="github"
               target="_blank"
           /></a>
-          <a href="#">
+          <a href="https://medium.com/@ckakos">
             <img
               src="https://www.flaticon.com/svg/vstatic/svg/408/408842.svg?token=exp=1618341908~hmac=4b6282a0f6ebc038d25ae46154fb9831"
               alt="medium"
@@ -45,7 +56,7 @@
             />
             /></a
           >
-          <a href="#">
+          <a href="https://linkedin.com/in/chris-kakos">
             <img
               src="https://www.flaticon.com/svg/vstatic/svg/220/220343.svg?token=exp=1618341998~hmac=e17e6ea09acf5b6cc8e4bb7d4d5033ba"
               alt="linkedin"
@@ -57,6 +68,7 @@
 
     <!-- hidden side menu -->
     <div class="menu">
+      <div class="toggle-close" onclick="closeSideMenu()"></div>
       <ul>
         <li><a href="#">Landing</a></li>
         <li><a href="#">Algorithms</a></li>
@@ -66,5 +78,19 @@
         <li><a href="#">About</a></li>
       </ul>
     </div>
+
+    <script>
+      const openSideMenu = () => {
+        //
+        //
+        //
+      };
+
+      const closeSideMenu = () => {
+        //
+        //
+        //
+      };
+    </script>
   </body>
 </html>

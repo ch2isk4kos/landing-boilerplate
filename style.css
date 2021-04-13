@@ -20,6 +20,7 @@
   background: #111;
   color: #fff;
   z-index: 2; /* showcase section will always displayed in front*/
+  transition: 1.2s;
 }
 
 .showcase.active {
@@ -63,12 +64,17 @@
   cursor: pointer;
 }
 
+.toggle-open a img {
+  width: 45px;
+  height: 45px;
+  filter: invert(1);
+}
+
 .toggle {
   position: relative;
-  width: 60px;
+  width: 60%;
   height: 60px;
-  /* background: url("https://www.flaticon.com/svg/vstatic/svg/2099/2099043.svg?token=exp=1618329526~hmac=530bbd6a4b3bcd5460c35bd14cd0a0fd");*/ /* add url for hamburger icon */
-  background: url("https://www.flaticon.com/svg/vstatic/svg/1828/1828850.svg?token=exp=1618329419~hmac=341a5df618f7c3b4550ef47d30e7c838");
+  background: url("https://www.flaticon.com/svg/vstatic/svg/3388/3388797.svg?token=exp=1618343600~hmac=f9fbbf157ae08038fb3c40397dc95ef6");
   background-repeat: no-repeat;
   background-size: 30px;
   background-position: center;
@@ -80,6 +86,7 @@
   background-repeat: no-repeat;
   background-size: 25px;
   background-position: center;
+  cursor: pointer;
 }
 
 .content {
@@ -155,12 +162,34 @@
   height: 100px;
 }
 
-.menu {
-  /* display: none; */
+/* .menu { */
+/* position: absolute; */
+/* display: flex; */
+/* justify-content: center; horizontally */
+/* align-items: center; vertically */
+/* top: 0;
+  right: 0;
+  width: 300px;
+  height: 100%;
+} */
+
+/* .menu ul {
+  position: relative;
+  list-style: none;
 }
 
+.menu ul li a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #111;
+}
+
+.menu ul li a:hover {
+  color: #3e3f3f;
+} */
+
 /* page responsiveness */
-@media (max-width: 991px) {
+@media (max-width: 891px) {
   .showcase,
   .showcase header {
     padding: 40px;
