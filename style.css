@@ -7,3 +7,21 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
+.showcase {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  background: #111;
+  color: #fff;
+  z-index: 2; /* showcase section will always displayed in front*/
+}
+
+.menu {
+  /* display: none; */
+}
