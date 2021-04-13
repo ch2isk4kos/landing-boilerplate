@@ -146,6 +146,25 @@
   transform: scale(0.5) translateY(-15);
 }
 
+.social li a img {
+  width: 100px;
+  height: 100px;
+}
+
 .menu {
   /* display: none; */
+}
+
+/* page responsiveness */
+@media (max-width: 991px) {
+  .showcase,
+  .showcase header {
+    padding: 40px;
+  }
+  .text h2 {
+    font-size: 3em;
+  }
+  .text h3 {
+    font-size: 2em;
+  }
 }
