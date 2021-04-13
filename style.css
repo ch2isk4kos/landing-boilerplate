@@ -111,9 +111,14 @@
   background: #fff;
   font-size: 1em;
   color: #000;
+  letter-spacing: 2px;
   text-decoration: none;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  transition: 0.2s;
+}
+
+.content a:hover {
+  letter-spacing: 6px;
 }
 
 .menu {
